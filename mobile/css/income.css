@@ -1,0 +1,109 @@
+/*banner*/
+#banner {
+	padding-top: 2.32rem;
+}
+#banner img {
+	width: 100%;
+	height: 4.03rem;
+}
+
+/**/
+.income_container {
+	padding: .9rem .3rem 0;
+}
+
+.content .tit {
+	text-align: center;
+	font-size: .34rem;
+	color: #333;
+}
+
+.content > p {
+	margin-top: .5rem;
+	font-size: .26rem;
+	color: #333;
+	line-height: .42rem;
+	text-indent: 2em;
+}
+
+.content > dl dt {
+	margin-top: .8rem;
+	margin-bottom: .3rem;
+	font-size: .26rem;
+	color: #666;
+	text-align: center;
+}
+.content > dl dd ul {
+	border: 1px solid #e9e9e9;
+}
+.content > dl dd li {
+	padding: .2rem;
+	font-size: .24rem;
+	color: #333;
+	line-height: .39rem;
+	border-bottom: 1px solid #e9e9e9;
+}
+.content > dl dd li:last-child {
+	border-bottom: none;
+}
+.content > dl dd li:nth-child(odd) {
+	background: #f8f8f8;
+}
+.content > dl dd li:nth-child(even) {
+	background: #fff;
+}
+.content > dl dd li mark {
+	background: #ffb83b;
+}
+
+.content_1 > ul > li {
+	font-size: .26rem;
+	line-height: .42rem;
+	color: #333;
+}
+.content_1 > ul > li mark {
+	display: inline-block;
+	background: #ffb83b;
+	margin-top: .6rem;
+	margin-bottom: .5rem;
+}
+.content_1 > ul > li ol li img {
+	display: block;
+	width: 100%;
+	margin-top: .3rem;
+	margin-bottom: .5rem;
+}
+.content_1 > ul > li ol.tabel {
+	border: 1px solid #e9e9e9;
+}
+.content_1 > ul > li ol.tabel li {
+	padding: .2rem 0 .2rem .2rem;
+	border-bottom: 1px solid #e9e9e9;
+}
+.content_1 > ul > li ol.tabel li:last-child {
+	border-bottom: none;
+}
+.content_1 > ul > li ol.tabel li:nth-child(odd) {
+	background: #fff;
+}
+.content_1 > ul > li ol.tabel li:nth-child(even) {
+	background: #f8f8f8;
+}
+.content_1 > ul > li ol.tabel li h5 {
+	color: #ff973b;
+}
+
+.content_2 {
+	padding-bottom: .5rem;
+}
+
+.content_2 dl {
+	font-size: .26rem;
+	line-height: .42rem;
+	color: #333;
+}
+.content_2 dl dt {
+	font-weight: bold;
+	margin-top: .6rem;
+	margin-bottom: .5rem;
+}

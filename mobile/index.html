@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>首页-团享会</title>
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/setFontSize.js"></script>
+</head>
+<body>
+
+	<header class="flex_between item_center">
+		<a href="javascript:;">
+			<img class="logo" src="images/logo.png" alt="">
+		</a>
+		<img class="menu" src="images/menu.png" alt="">
+	</header>
+
+	<div id="route" class="flex_between item_center">
+		<div class="flex_start route_left">
+			<a href="javascript:;">
+				<img src="images/home.png" alt="">
+			</a>
+			<div class="line"></div>
+			<div class="navitarget">访问小程序</div>
+		</div>
+		<a href="javascript:;" class="wantJoin">我要加盟</a>
+	</div>
+	
+	<!-- 导航菜单 -->
+	<nav style="display: none;">
+		<a href="javascript:;">首页</a>
+		<a href="javascript:;" class="active">访问小程序</a>
+		<a href="javascript:;">关于团享会</a>
+		<a href="javascript:;">成为团长</a>
+		<a href="javascript:;">招商加盟</a>
+	</nav>
+
+	<div id="banner">
+		<img src="images/banner.png" alt="">
+	</div>
+
+	<div class="content_1">
+		<div class="title">团享会小程序</div>
+		<div class="tit_sub">精选全球美食 吃喝赚钱两不误</div>
+		<img class="pic_1" src="images/pic_1.png" alt="">
+	</div>
+
+	<div class="content_2">
+		<div class="cont_2_tit">团享会是什么？</div>
+		<div class="cont_2_row">团享会是基于分享经济的美食类社交电商平台，我们深入一线产地，精挑细选，打造高品质的美食，为大家带来健康、快乐、高品质的生活方式。人人都可以参与到这个平台中来，实现0成本创业，自买省钱，分享赚钱。</div>
+		<img class="pic_2" src="images/pic_2.png" alt="">
+	</div>
+
+	<div class="content_3">
+		<div class="cont_3_tit">商业模式颠覆性创新</div>
+		
+		<div class="mode_1_box">
+			<div class="tit">传统模式</div>
+			<ul>
+				<li><img src="../images/icon_err.png" alt=""><span>大量囤货</span></li>
+				<li><img src="../images/icon_err.png" alt=""><span>无人售后</span></li>
+				<li><img src="../images/icon_err.png" alt=""><span>超高门槛</span></li>
+				<li><img src="../images/icon_err.png" alt=""><span>巨大成本</span></li>
+				<li><img src="../images/icon_err.png" alt=""><span>虚假收益</span></li>
+			</ul>
+		</div>
+
+		<div class="mode_2_box">
+			<div class="tit">团享会商业模式</div>
+			<ul>
+				<li><img src="../images/icon_suc.png" alt=""><span>0囤货，分享即能带来收益</span></li>
+				<li><img src="../images/icon_suc.png" alt=""><span>专业售后，一对一服务</span></li>
+				<li><img src="../images/icon_suc.png" alt=""><span>微信小程序中搜索【团享会】即可使用</span></li>
+				<li><img src="../images/icon_suc.png" alt=""><span>无需支付任何货款</span></li>
+				<li><img src="../images/icon_suc.png" alt=""><span>最高达30%销售佣金</span></li>
+			</ul>
+		</div>
+
+		<img class="pic_3" src="images/pic_3.png" alt="">
+	</div>
+
+	<div class="content_4">
+		<div class="cont_4_tit flex_center item_center">
+			<div class="tit_lf flex_center item_center">平台</div>
+			<div class="tit_rt"><span>5</span>大支持</div>
+		</div>
+		<ul>
+			<li><img src="images/icon_1.png" alt=""><span>专享精选美食代理权</span></li>
+			<li><img src="images/icon_2.png" alt=""><span>成熟物流系统，无需担心发货、退换货</span></li>
+			<li><img src="images/icon_3.png" alt=""><span>提供优质传播素材库，轻松分享</span></li>
+			<li><img src="images/icon_4.png" alt=""><span>支持闪电到账，随时提现</span></li>
+			<li><img src="images/icon_5.png" alt=""><span>专业培训，系统化一对一辅导</span></li>
+		</ul>
+	</div>
+
+
+	<footer>
+		<div class="footer_logo">
+			<img class="logo" src="images/logo.png" alt="">
+			<img class="sub" src="images/footer_sub.png" alt="">
+		</div>
+		<dl>
+			<dt>【联系电话】028-66886688（微信同号）</dt>
+			<dd>【公司地址】成都市金牛区九里堤西南交大创新大厦403</dd>
+		</dl>
+		<div class="eqcode">
+			<img src="../images/eqcode.png" alt="">
+			<span>扫一扫进入小程序</span>
+		</div>
+	</footer>
+
+
+	<script src="js/jquery-2.1.0.js"></script>
+	<script>
+		$('header').find('.menu').click(function() {
+			$('nav').toggle();
+			if ($('nav').is(':hidden')) {
+				$('body').css('overflow', 'auto');
+			} else {
+				$('body').css('overflow', 'hidden');
+			}
+		});
+	</script>
+</body>
+</html>
