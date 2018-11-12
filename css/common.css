@@ -9,6 +9,10 @@
 }
 
 
+mark {
+	background: #ffbb02;
+}
+
 /*外边距*/
 .mt10 {
 	margin-top: 10px;
